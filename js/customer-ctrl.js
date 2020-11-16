@@ -33,6 +33,8 @@ init();
 
 function init(){
     // Todo: add the initialization code if any
+    var id = document.getElementById('txt-id');
+    id.focus();
 }
 
 /*===============================================================================
@@ -40,9 +42,11 @@ function init(){
  *===============================================================================*/
 
 // Todo: add all event listeners and handlers here
+document.getElementById('btn-save').addEventListener('click',save);
 
 /*===============================================================================
  * Functions
  *===============================================================================*/
 
 // Todo: add all functions
+
